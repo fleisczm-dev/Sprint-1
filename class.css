@@ -43,3 +43,39 @@ h1 {
 aside {
     border-left: 1px solid green
 }
+/* --- Business in AI Info Section --- */
+.ai-info {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.7;
+}
+
+.ai-info h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-family: 'Lobster', cursive;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.ai-info p {
+    margin-bottom: 18px;
+    font-size: 1.05em;
+}
+
+.ai-info p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+    .ai-info {
+        padding: 15px 20px;
+        font-size: 0.95em;
+    }
+}
